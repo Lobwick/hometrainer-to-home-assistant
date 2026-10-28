@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26DD6EBE77958A9F5FFF110E /* HomeAssistantClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661654C72DF02596103B8DD0 /* HomeAssistantClient.swift */; };
+		82F3C152F5BC4D9744BE6E1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A8DF96954F3CDA1026F78 /* ContentView.swift */; };
+		A31796F9F388640BD1D5634C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053C41C50FB22F135FEE7335 /* Models.swift */; };
+		A502AFF3FFB9349B2CEFA1EB /* BikeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC88847E1F9E3488E89EEC4B /* BikeManager.swift */; };
+		CE4AD334AFF977D7DDA1C538 /* HomeTrainerHAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE42F91EE93D4D04E6520BC /* HomeTrainerHAApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		053C41C50FB22F135FEE7335 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		3DE42F91EE93D4D04E6520BC /* HomeTrainerHAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTrainerHAApp.swift; sourceTree = "<group>"; };
+		426A8DF96954F3CDA1026F78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5275C086BEE2BDF487928403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		661654C72DF02596103B8DD0 /* HomeAssistantClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssistantClient.swift; sourceTree = "<group>"; };
+		AB43039C4E12074741773C12 /* HomeTrainerHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeTrainerHA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC88847E1F9E3488E89EEC4B /* BikeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		86EACE4AB3381E29906B0B06 /* HomeTrainerHA */ = {
+			isa = PBXGroup;
+			children = (
+				EC88847E1F9E3488E89EEC4B /* BikeManager.swift */,
+				426A8DF96954F3CDA1026F78 /* ContentView.swift */,
+				661654C72DF02596103B8DD0 /* HomeAssistantClient.swift */,
+				5275C086BEE2BDF487928403 /* Info.plist */,
+				053C41C50FB22F135FEE7335 /* Models.swift */,
+				3DE42F91EE93D4D04E6520BC /* HomeTrainerHAApp.swift */,
+			);
+			path = HomeTrainerHA;
+			sourceTree = "<group>";
+		};
+		BC63B672B17B9D1C4963B9DF = {
+			isa = PBXGroup;
+			children = (
+				86EACE4AB3381E29906B0B06 /* HomeTrainerHA */,
+				CEC22D819773105B99FE4574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC22D819773105B99FE4574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB43039C4E12074741773C12 /* HomeTrainerHA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E98C7821A0B09D4A92EA2470 /* HomeTrainerHA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546024400F8236D84C943C63 /* Build configuration list for PBXNativeTarget "HomeTrainerHA" */;
+			buildPhases = (
+				9172A4AC28F152886E34A726 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeTrainerHA;
+			packageProductDependencies = (
+			);
+			productName = HomeTrainerHA;
+			productReference = AB43039C4E12074741773C12 /* HomeTrainerHA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B659434DD887E4A15A06E61E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = CF3385D27E2366523E2A61A0 /* Build configuration list for PBXProject "HomeTrainerHA" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BC63B672B17B9D1C4963B9DF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEC22D819773105B99FE4574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E98C7821A0B09D4A92EA2470 /* HomeTrainerHA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9172A4AC28F152886E34A726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502AFF3FFB9349B2CEFA1EB /* BikeManager.swift in Sources */,
+				82F3C152F5BC4D9744BE6E1B /* ContentView.swift in Sources */,
+				26DD6EBE77958A9F5FFF110E /* HomeAssistantClient.swift in Sources */,
+				A31796F9F388640BD1D5634C /* Models.swift in Sources */,
+				CE4AD334AFF977D7DDA1C538 /* HomeTrainerHAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4CC5A6F772FC677F0E5B8DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = AVAP448398;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeTrainerHA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HomeTrainer → HA";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Se connecter à votre home trainer pour lire puissance, cadence et vitesse.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Envoyer les données du home trainer à Home Assistant sur votre réseau local.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.lobwick.HomeTrainerHA;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE1679BBEDDF690A5590EC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B952C7C389610CAC87E787BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = AVAP448398;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeTrainerHA/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HomeTrainer → HA";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Se connecter à votre home trainer pour lire puissance, cadence et vitesse.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Envoyer les données du home trainer à Home Assistant sur votre réseau local.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.lobwick.HomeTrainerHA;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD3306110C1EF8B2B25FAD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546024400F8236D84C943C63 /* Build configuration list for PBXNativeTarget "HomeTrainerHA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC5A6F772FC677F0E5B8DA6 /* Debug */,
+				B952C7C389610CAC87E787BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CF3385D27E2366523E2A61A0 /* Build configuration list for PBXProject "HomeTrainerHA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1679BBEDDF690A5590EC1A /* Debug */,
+				CD3306110C1EF8B2B25FAD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B659434DD887E4A15A06E61E /* Project object */;
+}
