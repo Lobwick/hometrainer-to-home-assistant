@@ -1,3 +1,5 @@
+<p align="center"><img src="HomeTrainerHA/Assets.xcassets/AppIcon.appiconset/AppIcon.png" width="128" alt="Logo HomeTrainer To Home Assistant"></p>
+
 # HomeTrainer To Home Assistant — app iOS
 
 App iOS (SwiftUI) qui se connecte en Bluetooth à un home trainer (Wahoo KICKR ou

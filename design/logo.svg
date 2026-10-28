@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E88E5"/>
+      <stop offset="1" stop-color="#0B2A5B"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC233"/>
+      <stop offset="1" stop-color="#FF7A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- toit de la maison -->
+  <polyline points="196,452 512,196 828,452" fill="none" stroke="#FFFFFF" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- volant d'inertie du home trainer -->
+  <circle cx="512" cy="610" r="214" fill="none" stroke="#FFFFFF" stroke-width="56"/>
+  <circle cx="512" cy="610" r="150" fill="#FFFFFF" fill-opacity="0.10"/>
+  <!-- éclair (puissance) -->
+  <path d="M548 452 L420 640 L506 640 L474 780 L612 576 L524 576 Z" fill="url(#bolt)" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round"/>
+  <!-- pieds du home trainer -->
+  <line x1="338" y1="880" x2="440" y2="880" stroke="#FFFFFF" stroke-width="48" stroke-linecap="round"/>
+  <line x1="584" y1="880" x2="686" y2="880" stroke="#FFFFFF" stroke-width="48" stroke-linecap="round"/>
+</svg>
